@@ -1,0 +1,9 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "qaz123#@!",
+    "database": "certicrud",
+    "host": "chanelforclients.postgres.database.azure.com",
+    "dialect": "postgres"
+  }
+}

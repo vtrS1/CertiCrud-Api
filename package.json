@@ -1,0 +1,31 @@
+{
+  "name": "certicrud-api",
+  "version": "1.0.0",
+  "description": "Api certicrud using express and sequelize ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon ./src/index.js",
+    "start": "node dist/index.js",
+    "build": "sucrase ./src -d ./dist --transforms imports && cpx ./src/config/config.json ./dist/config"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "cpx": "^1.5.0",
+    "date-fns": "^2.30.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "node-mailjet": "^6.0.2",
+    "nodemon": "^2.0.22",
+    "pg": "^8.11.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.31.1",
+    "sucrase": "^3.32.0",
+    "yup": "^1.1.1"
+  }
+}
